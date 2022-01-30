@@ -1,11 +1,13 @@
 import {FC} from 'react'
 import {DefaultHeader} from '../../types/header.types'
+import Navbar from '../navbar/Navbar';
 
 
 const Header : FC = ()=>{
    return(
      <DefaultHeader>
-       flgmlmflmglmlfmlfgm
+       <div>bbb</div>
+       <Navbar/>
      </DefaultHeader>
    )
 } 
